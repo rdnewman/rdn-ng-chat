@@ -1,0 +1,30 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.roomlist {
+  background-color: lightgrey;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  height: 100%;
+  min-height: 100%;
+  float: left;
+}
+
+h2.roomlist-header {
+  margin: 1rem;
+}
+
+.room-name {
+  margin: 1rem 0 0 1rem;
+  font-size: 120%;
+}
