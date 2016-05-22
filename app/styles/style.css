@@ -4,27 +4,45 @@ html, body{
   padding: 0;
 }
 
-.container {
+.container-chatdisplay {
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-.roomlist {
+.container-roomlist {
   background-color: lightgrey;
   margin: 0;
   padding: 0;
-  width: 10%;
+  width: 20%;
   height: 100%;
   min-height: 100%;
   float: left;
 }
 
+.roomlist {
+  margin: 1rem 0 0 1rem;
+}
+
 h2.roomlist-header {
-  margin: 1rem;
+}
+
+.btn-create-room {
+}
+
+.room-names {
+  margin: 2rem 0;
 }
 
 .room-name {
-  margin: 1rem 0 0 1rem;
-  font-size: 120%;
+  font-size: 1.7rem;
+  color: darkslategrey;
+  padding: 0.2rem;
+  width: 70%;
+  margin: 1rem 0;
+}
+
+.room-name:hover {
+  background-color: ivory;
+  text-decoration: none;
 }

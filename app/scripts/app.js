@@ -14,6 +14,6 @@
    }
 
    angular
-     .module('BlocChat', ['ui.router', 'firebase']) //, 'ui.bootstrap']);
+     .module('BlocChat', ['ui.router', 'firebase', 'ui.bootstrap'])
      .config(config);
 })();
